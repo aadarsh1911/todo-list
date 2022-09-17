@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: o;
+  box-sizing: border-box;
+}
+
+body{
+  /* background image (wallpaperaccess.com) */
+  padding: 0 10px;
+  min-height: 100vh;
+  background:url("bg.jpg")
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container input {
+  width: 80%;
+  height: auto;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  padding: 0.2rem;
+}
+.container button {
+  padding: 0.4rem 1rem;
+  border: none;
+  outline: none;
+  background-color: purple;
+  color: white;
+  border-radius: 2px;
+}
+form {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.card {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.card div {
+  display: flex;
+}
+.card span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.true {
+  text-decoration: line-through;
+  color: red;
+}
+
+.false {
+  color: darkslategray;
+}
+button:hover,
+i:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+}
